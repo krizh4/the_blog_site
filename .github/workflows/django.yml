@@ -27,4 +27,4 @@ jobs:
         pip install django
     - name: Run Tests
       run: |
-        python server/manage.py runserver
+        python server/manage.py test
